@@ -1,22 +1,22 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace Leaf
 {
     /// <summary>
-    /// ¾Ç²ßÄæ¦ì Field
+    /// å­¸ç¿’æ¬„ä½ Field
     /// </summary>
     public class LearnField : MonoBehaviour
     {
         /// <summary>
-        /// Äæ¦ì Field:Àx¦s¸ê®Æ
-        /// »yªk:
-        /// ­×¹¢µü ¸ê®ÆÃş«¬ Äæ¦ì¦WºÙ
-        /// ¨p¤H private:¶È¦b¦¹¥\¯à¤º¯à°÷¦s¨ú¡A¤£Åã¥Ü
+        /// æ¬„ä½ Field:å„²å­˜è³‡æ–™
+        /// èªæ³•:
+        /// ä¿®é£¾è© è³‡æ–™é¡å‹ æ¬„ä½åç¨±
+        /// ç§äºº private:åƒ…åœ¨æ­¤åŠŸèƒ½å…§èƒ½å¤ å­˜å–ï¼Œä¸é¡¯ç¤º
         /// </summary>
         private int level;
-        //µ¥©ó «ü©w²Å¸¹:±Nµ¥©ó¥kÃäªºµ²ªG«ü©wµ¹¥ªÃä
+        //ç­‰æ–¼ æŒ‡å®šç¬¦è™Ÿ:å°‡ç­‰æ–¼å³é‚Šçš„çµæœæŒ‡å®šçµ¦å·¦é‚Š
         private string name = "Leaf";
-        // ¤½¶} public:©Ò¦³¥\¯à³£¯à°÷¦s¨ú¡AÅã¥Ü
+        // å…¬é–‹ public:æ‰€æœ‰åŠŸèƒ½éƒ½èƒ½å¤ å­˜å–ï¼Œé¡¯ç¤º
         public int enemy = 6;
 
         public string playername = "Johnson";
@@ -27,18 +27,18 @@ namespace Leaf
         public bool isAttack = false;
         public bool hasWeapon = true;
 
-        //¼ĞÃD
-        [Header("¦å¶q")]
+        //æ¨™é¡Œ
+        [Header("è¡€é‡")]
         public int HP = 99;
-        //´£¥Ü
-        [Tooltip("ª±®a¹Cª±ªº®É¶¡¡C")]
+        //æç¤º
+        [Tooltip("ç©å®¶éŠç©çš„æ™‚é–“ã€‚")]
         public float time = 15.5f;
-        //¼Æ­È±M¥Î½d³ò(³Ì¤j­È¡A³Ì¤p­È)
+        //æ•¸å€¼å°ˆç”¨ç¯„åœ(æœ€å¤§å€¼ï¼Œæœ€å°å€¼)
         [Range(1, 99)]
         public int runspeed = 10;
         [Range(5f, 60f)]
         public float strength = 15.5f;
-        //§Ç¦C¤ÆÄæ¦ì:Åã¥Ü¨p¤HÄæ¦ì
+        //åºåˆ—åŒ–æ¬„ä½:é¡¯ç¤ºç§äººæ¬„ä½
         [SerializeField]
         private int bomb = 10;
     }

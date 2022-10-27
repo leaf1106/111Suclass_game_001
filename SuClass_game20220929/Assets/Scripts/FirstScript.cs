@@ -1,30 +1,30 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 /// <summary>
-/// ²Ä¤@­Óµ{¦¡
+/// ç¬¬ä¸€å€‹ç¨‹å¼
 /// </summary>
 
 namespace Leaf
 {
     public class FirstScript : MonoBehaviour
     {
-        #region µù¸Ñ¤º®e
-        /*¦h¦æµù¸Ñ
-         * ¦h¦æµù¸Ñ
+        #region è¨»è§£å…§å®¹
+        /*å¤šè¡Œè¨»è§£
+         * å¤šè¡Œè¨»è§£
          */
-        //³ê¿ô¨Æ¥ó:¦b¹CÀ¸¶}©l®É°õ¦æ¤@¦¸
+        //å–šé†’äº‹ä»¶:åœ¨éŠæˆ²é–‹å§‹æ™‚åŸ·è¡Œä¸€æ¬¡
         private void Awake()
         {
-            print("«¢Åo¡A¨U¼w");
+            print("å“ˆå›‰ï¼Œæ²ƒå¾·");
         }
-        //¶}©l¨Æ¥ó:¦b Awake «á°õ¦æ¤@¦¸
+        //é–‹å§‹äº‹ä»¶:åœ¨ Awake å¾ŒåŸ·è¡Œä¸€æ¬¡
         private void Start()
         {
-            print("<color=orange>³o¬O¶}©l¨Æ¥ó</color>");
+            print("<color=orange>é€™æ˜¯é–‹å§‹äº‹ä»¶</color>");
         }
-        //§ó·s¨Æ¥ó:¦b Start «á¡A¨C¬í°õ¦æ 60 FPS
+        //æ›´æ–°äº‹ä»¶:åœ¨ Start å¾Œï¼Œæ¯ç§’åŸ·è¡Œ 60 FPS
         private void Update()
         {
-            print("<color=yellow>³o¬O§ó·s¨Æ¥ó</color>");
+            print("<color=yellow>é€™æ˜¯æ›´æ–°äº‹ä»¶</color>");
         }
 
         #endregion
